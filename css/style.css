@@ -168,3 +168,27 @@ hr{
     background-color: #264653;
     color: white;
 }
+
+/* -------------------
+    bonus section - 2
+---------------------- */
+
+/* subscription section */
+.subscribe-bg{
+    background-color: #fcf1ee;
+    /* background-color: #e2f0f7; */
+    border-radius: 10px;
+    margin-top: 8rem;
+}
+.subscribe-bg .custom-btn{
+    color: white;
+    font-weight: 500;
+    margin-top: 3rem;
+    text-decoration: none;
+    background-color: #264653;
+}
+.subscribe-bg .custom-btn:hover{
+    background-color: transparent;
+    border: 1px solid #264653;
+    color: #264653;
+}
