@@ -68,3 +68,16 @@ hr{
 .gray-img{
     filter: grayscale(1);
 }
+
+/* latest news section */
+.news h1{
+    color: black;
+}
+.news .custom-outline-btn{
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+.news .custom-outline-btn:hover{
+    background-color: #E76F51;
+    color: white;
+}
