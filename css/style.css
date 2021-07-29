@@ -179,6 +179,7 @@ hr{
     /* background-color: #e2f0f7; */
     border-radius: 10px;
     margin-top: 8rem;
+    margin-bottom: 8rem;
 }
 .subscribe-bg .custom-btn{
     color: white;
@@ -191,4 +192,36 @@ hr{
     background-color: transparent;
     border: 1px solid #264653;
     color: #264653;
+}
+
+
+/* =============
+    footer part
+================ */
+footer{
+    background-color: #0A0826;;
+}
+
+/* links & copyright*/
+footer ul{
+    line-height: 1.5rem;
+    overflow-wrap: break-word;
+}
+footer ul li{
+    list-style: none;
+    color: #D9DBE1;
+    font-size: .87rem;
+    padding-right: 2rem;
+}
+
+/* app */
+.app button{
+    background-color: #0B0D17;;
+}
+.app i{
+    color: teal;
+    font-size:x-large;
+}
+.app .small-txt{
+    font-size: xx-small;
 }
