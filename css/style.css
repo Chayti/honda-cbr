@@ -1,0 +1,70 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-btn{
+background-color: #E76F51;
+color: white;
+}
+
+
+/* ==================
+    header part 
+=====================*/
+
+header{
+    background-color: #264653;
+}
+header p,h1{
+    color: white;
+}
+/* banner section */
+.banner .top-p{
+    color:#E0E0E0;
+    font-size: .875rem;
+    line-height: 1rem;
+}
+.banner h1{
+    line-height: 4.5rem;
+}
+.banner .bottom-p{
+    color:#E0E0E0;
+    width: 21rem;
+    line-height: 1.5rem;
+}
+.custom-title{
+    color: #E76F51;
+}
+
+
+/* ==================
+    main part
+===================== */
+
+/* featured bike section */
+.bike h1{
+    color: black;
+}
+.bike p{
+    line-height: 1.3rem;
+    font-size: .875rem;
+    color: #E76F51;
+}
+hr{
+    border: 1px solid #E76F51;
+    border-radius: 1px;
+    width: 3.7rem;
+}
+
+.bike img{
+    width: 18rem;
+    height: 15.19rem;
+}
+
+.gray-img{
+    filter: grayscale(1);
+}
