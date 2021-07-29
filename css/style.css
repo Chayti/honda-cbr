@@ -111,7 +111,7 @@ hr{
 }
 .client ul li{
     list-style:none;
-    color: #E76F51;;
+    color: #E76F51;
 }
 .client-name{
     letter-spacing: 0.2px;
@@ -134,4 +134,37 @@ hr{
 .faq h2{
     color: #383838;
     font-weight: 500;
+}
+
+/* -------------------
+    bonus section - 1
+---------------------- */
+
+/* carousel section */
+.carousel-bg{
+    background-color: #E76F51;
+}
+.slider{
+    border-radius: 10px;
+}
+.slider h1{
+    color: #264653;
+    font-weight: 900;
+}
+.slider p{
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: 600;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 5%;
+}
+.carousel-bg .custom-btn{
+    margin-top: 3rem;
+    border: 1px solid #264653;
+    color: #264653;
+}
+.carousel-bg .custom-btn:hover{
+    background-color: #264653;
+    color: white;
 }
