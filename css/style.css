@@ -1,5 +1,6 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* common styles */
 body{
@@ -25,16 +26,20 @@ header p,h1{
 /* banner section */
 .banner .top-p{
     color:#E0E0E0;
+    font-weight: 300;
     font-size: .875rem;
     line-height: 1rem;
 }
 .banner h1{
     line-height: 4.5rem;
+    font-size: 48px;
+    font-weight: 600;
 }
 .banner .bottom-p{
     color:#E0E0E0;
-    width: 21rem;
+    width: 19.5rem;
     line-height: 1.5rem;
+    font-weight: 300;
 }
 .custom-title{
     color: #E76F51;
@@ -80,4 +85,53 @@ hr{
 .news .custom-outline-btn:hover{
     background-color: #E76F51;
     color: white;
+}
+
+/* happy clients section */
+.happy-clients h1{
+    font-weight: 600;
+}
+.custom-heading-part-1{
+    color: #0A0826;
+}
+.custom-heading-part-2{
+    color: #E76F51;
+}
+.happy-clients .client{
+    border: 1px solid #DEDEDE;
+}
+.happy-clients img{
+    width: 149px;
+    height: 149px;
+}
+.client-review{
+    letter-spacing: 0.2px;
+    line-height: 1.625rem;
+    color:#6C6C6C;
+}
+.client ul li{
+    list-style:none;
+    color: #E76F51;;
+}
+.client-name{
+    letter-spacing: 0.2px;
+    font-size: .875rem;
+    color: #23A6F0;
+}
+.client-designation{
+    letter-spacing: 0.2px;
+    font-size: .875rem;
+    color: #252B42;
+}
+
+/* FAQ section */
+.faq-text, .faq h2{
+    font-family: 'Inter', sans-serif;
+}
+.faq-ans{
+    color: #7E848C;
+}
+.faq h2{
+    color: #383838;
+    font-weight: 500;
 }
