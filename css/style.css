@@ -212,6 +212,7 @@ footer ul li{
     color: #D9DBE1;
     font-size: .87rem;
     padding-right: 2rem;
+    cursor: pointer;
 }
 
 /* app */
